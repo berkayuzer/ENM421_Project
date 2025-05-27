@@ -97,7 +97,11 @@ Aşağıdaki tablo, modelimizin her sınıf (Depresyon=0 ve Depresyon=1) için p
 | **Gerçek: Depresyon Var** | FN: \[980]            | TP: \[4133]   |
 
 **Yorum:**
-Modelimiz, özellikle sınıf dengesizliğiyle başa çıkma teknikleri (SMOTE ve model içi ağırlıklandırmalar) ve tahmin eşiği optimizasyonu sayesinde, depresyon vakalarını tespit etmede önemli bir başarı göstermiştir. Recall değerindeki belirgin artış (%XX.X), modelimizin gerçek depresyon vakalarının büyük bir çoğunluğunu yakalayabildiğini göstermektedir. F1 skoru da (%YY.Y) modelin genel performansının güçlü ve dengeli olduğunu teyit etmektedir. Bu sonuçlar, geliştirilen modelin depresyon riskini belirlemede potansiyel bir destek aracı olarak kullanılabileceğine işaret etmektedir.
+Modelimiz, özellikle sınıf dengesizliğiyle başa çıkma teknikleri (SMOTE ve model içi ağırlıklandırmalar) ve tahmin eşiği optimizasyonu sayesinde, depresyon vakalarını tespit etmede başarısını artırmıştır. Recall değerindeki belirgin artış (%80.8), modelimizin gerçek depresyon vakalarının büyük bir çoğunluğunu yakalayabildiğini göstermektedir. F1 skoru da (%77.4) modelin genel performansının dengeli olduğunu göstermektedir.
+
+**Geliştiriciler:**
+*   \[Berkay ÜZER]
+*   \[Görkem YILDIZ]
 
 ## Kurulum ve Çalıştırma
 
@@ -107,7 +111,3 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost catboost lightg
 
 # Notebook'u çalıştırın
 jupyter notebook ENM421_Project.ipynb
-
-**Geliştiriciler:**
-*   \[Berkay ÜZER]
-*   \[Görkem YILDIZ]
