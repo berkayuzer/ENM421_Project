@@ -71,10 +71,10 @@ Proje aşağıdaki temel adımları içermektedir:
 
 SMOTE ile dengelenmiş eğitim verisi üzerinde eğitilen ve tahmin eşiği optimize edilen ensemble modelimizin **test seti** üzerindeki performansı aşağıdaki gibidir:
 
-*   **Accuracy:** \[%91.41]
-*   **Precision:** \[%74.20]
-*   **Recall:** \[%80.83]
-*   **F1 Score:** \[%77.38]
+*   **Accuracy:** %91.41
+*   **Precision:** %74.20
+*   **Recall:** %80.83
+*   **F1 Score:** %77.38
 
 **Sınıflandırma Raporu:**
 
@@ -100,8 +100,8 @@ Aşağıdaki tablo, modelimizin her sınıf (Depresyon=0 ve Depresyon=1) için p
 Modelimiz, özellikle sınıf dengesizliğiyle başa çıkma teknikleri (SMOTE ve model içi ağırlıklandırmalar) ve tahmin eşiği optimizasyonu sayesinde, depresyon vakalarını tespit etmede başarısını artırmıştır. Recall değerindeki belirgin artış (%80.8), modelimizin gerçek depresyon vakalarının büyük bir çoğunluğunu yakalayabildiğini göstermektedir. F1 skoru da (%77.4) modelin genel performansının dengeli olduğunu göstermektedir.
 
 **Geliştiriciler:**
-*   \[Berkay ÜZER]
-*   \[Görkem YILDIZ]
+*   Berkay ÜZER
+*   Görkem YILDIZ
 
 ## Kurulum ve Çalıştırma
 
